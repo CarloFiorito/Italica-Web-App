@@ -34,12 +34,13 @@ const Home = () => {
               <p className="max-w-1 text-gray-300">
                 Benvenuti giovani maghi nel mondo di Italica RP, la prima
                 community magica italiana ambientata nel fantastico mondo di
-                Harry Potter. Il roleplay abbinato alla vostra immaginazione
-                garantiranno un’immersione unica! Inizia la tua esperienza nella
-                Scuola di Magia e Stregoneria di Italica vestendo i panni di un
-                giovane mago e/o strega.
+                Harry Potter. <br />
+                Il roleplay abbinato alla vostra immaginazione garantiranno
+                un’immersione unica! Inizia la tua esperienza nella Scuola di
+                Magia e Stregoneria di Italica vestendo i panni di un giovane
+                mago e/o strega.
               </p>
-              <button className="p-4 bg-button-light-blue-primary rounded max-w-[200px] hover:border-white hover:border-2">
+              <button className="p-4 bg-button-light-blue-primary rounded max-w-[200px] hover:inner-border-white hover:inner-border-2">
                 <p className="font-bold text-white"> Entra subito </p>
               </button>
             </div>
