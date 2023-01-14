@@ -54,8 +54,46 @@ const Home = () => {
           ></video>
         </div>
       </main>
-      <div className="bg-black p-8 flex flex-col items-center justify-center m-4 rounded-xl shadow-lg max-w-lg mx-auto mt-20 relative z-10 ">
-        <img src={hpIcon.src} className="rounded-full w-16 h-16 mb-4 " />
+
+      <div className="flex justify-between p-8">
+        <div className="w-1/2">ESPLORA E VIVI LA SCUOLA</div>
+        <div className="bg-button-light-blue-primary w-1/2 items-center">
+          <Image
+            src={logo}
+            height={300}
+            className="w-1/2 items-center flex justify-center"
+          />
+        </div>
+      </div>
+      <div className="flex justify-between p-8">
+        <div className="bg-button-light-blue-primary w-1/2 items-center">
+          <Image
+            src={logo}
+            height={300}
+            className="w-1/2 items-center flex justify-center"
+          />
+        </div>
+        <div className="w-1/2">ESPLORA LA MAPPA</div>
+      </div>
+      <div className="flex justify-between p-8">
+        <div className="w-1/2">SCEGLI DA CHE PARTE STARE</div>
+        {/* TODO: IMPLEMENTARE LOGICA CAROSELLI CON AUTOPLAY AND PAUSE ON HOVER */}
+        <div className="bg-button-light-blue-primary w-1/2 items-center">
+          <Image
+            src={logo}
+            height={300}
+            className="w-1/2 items-center flex justify-center"
+          />
+        </div>
+      </div>
+
+      {/* //TODO: IMPLEMENTARE FAQ CON ACCORDION */}
+      <div className="flex justify-center p-8 bg-black">
+        <p className="text-white">FAQ</p>
+      </div>
+      {/* //TODO: IMPLEMENTARE SOCIAL */}
+      <div className="flex justify-center p-8 bg-violet-600">
+        <p className="text-white">SEGUICI SUI SOCIAL</p>
       </div>
     </>
   );

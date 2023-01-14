@@ -13,7 +13,7 @@ const Header = () => {
           <strong>ITALICA ROLEPLAY</strong>
         </p>
       </div>
-      <div className="flex gap-16">
+      <div className="flex gap-16 pr-10">
         <Link
           href=""
           className=" transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:border-b-2 hover:border-button-light-blue-primary"
